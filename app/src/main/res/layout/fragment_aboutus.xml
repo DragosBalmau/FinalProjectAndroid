@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AboutUsFragment">
+
+    <LinearLayout
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Travel Journal"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="8dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="This application represents the final project of the course supported by the Digital Garage for programmers, in partnership with Google, at the Android Fundamentals course in 2020. Together with the tutor Magda Miu I managed to develop a first part of an application with potential . Together with the group FromHome I managed to improve my programming skills and at the same time I had fun with them duringthe online courses. It was a pleasant experience from which I learned a lot from and met interesting people."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/roman"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="264dp"
+            android:layout_height="272dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/pp" />
+
+    </LinearLayout>
+
+</ScrollView>
