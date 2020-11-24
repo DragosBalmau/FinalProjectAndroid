@@ -1,1 +1,1 @@
-# FinalProjectAndroid
+# Travel Journal
